@@ -12,7 +12,7 @@ export default function Joke(Props){
         <div>
             {Props.setup && <h1>{Props.setup}</h1>}
             {Props.punchline && shown && <p>{Props.punchline}</p>}
-            {Props.punchline && <button onClick={ToggleShown}>{ shown ? 'Show' : 'Hide'} Punchline</button>}
+            {Props.punchline && <button onClick={ToggleShown}>{ shown ? 'Hide' : 'Show'} Punchline</button>}
             <hr/>
         </div>
     )
